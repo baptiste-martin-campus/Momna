@@ -1,0 +1,209 @@
+*{ box-sizing: border-box; }
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #9a9a9a;
+}
+
+.container{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.btn{
+    display: block;
+    background: #4843d2;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 15px 0;
+    font-weight: 600;
+    text-align: center;
+    border: 3px solid #4843d2;
+}
+
+h2{
+    color: #333;
+    font-size: 34px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.btn:hover{
+    background: none;
+}
+
+/* HEADER */
+.main-header{
+    background: #fff;
+}
+
+.main-header .container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-header .logo{
+    display: block;
+    padding: 10px 0;
+}
+
+.main-header nav ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-header nav ul a{
+    color: #4843d2;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 600;
+    display: block;
+    padding: 23px 15px;
+}
+
+.main-header nav ul a:hover{
+    text-decoration: underline;
+}
+
+/* BUILD */
+.build{
+    background: url("../img/home-bg.jpg") no-repeat;
+    background-size: cover;
+    padding: 345px 0;
+    text-align: center;
+}
+
+.build h1{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.build p{
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+/* what */
+.what{
+    padding: 30px 0;
+    text-align: center;
+}
+
+.what .intro{
+    margin-bottom: 20px;
+}
+
+.what .line{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.what .line .box{
+    width: 30%;
+    border: 2px solid #4843d2;
+    padding: 20px 30px;
+}
+
+.what .line .box h3{
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #333;
+}
+
+.what .line .box:hover{
+    background: #4843d2;
+    color: #fff;
+}
+
+.what .line .box:hover h3{
+    color: #fff;
+}
+
+.what .line .box p{
+    line-height: 24px;
+}
+
+/* CREATIVE */
+.creative{
+    background: #eee;
+    padding: 40px 0;
+}
+
+.creative p{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.creative .grid{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.creative .grid a{
+    display: block;
+    width: 25%;
+}
+
+.creative .grid a img{
+    display: block;
+    width: 100%;
+}
+
+.creative .btn:hover{
+    color: #4843d2;
+}
+
+/* FOOTER */
+.main-footer{
+    background: #222;
+    padding: 45px 0;
+    text-align: center;
+}
+
+.main-footer .social{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.main-footer .social a{
+    display: block;
+    padding: 10px 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+}
+
+.main-footer .social .fb{ background: #3b5998; }
+.main-footer .social .twitter{ background: #55acee; }
+.main-footer .social .ig{ background: #2e5e86; }
+.main-footer .social .in{ background: #0082ca; }
+.main-footer .social .yt{ background: #ff0101; }
+
+.main-footer .social a:hover{
+    background: #fff;
+    color: #222;
+}
